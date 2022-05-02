@@ -1,0 +1,63 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+body
+{
+background-image: linear-gradient(to right top, #a8fa10, #7ee41e, #50f011, #1ad309, #0ff06d);
+}
+
+.header
+{
+	color: white;font-family: 'Papyrus';
+    font-size: 35px;letter-spacing: 10px;margin-top: 80px;
+}
+
+.login_div
+{
+	background: rgba(75, 196, 218, 0.8);float: none;border-radius: 15px;
+}
+
+#login_button
+{
+	width: 30%;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+.room_name
+{
+	cursor: pointer;
+	font-size: 20px;
+}
+
+
+#logout
+{
+	font-size: 20px; float: right;
+}
+
+
+#output
+{
+	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
+}
+
+.input_div_room_page
+{
+	width: 80%;
+}
+
+.input_div label
+{
+	color: white;font-size: 20px;
+}
+
+
+.input_div_message_page
+{
+	position: fixed;bottom: 0px;width: 100%;background: rgba(255,255,255,0.8);
+}
